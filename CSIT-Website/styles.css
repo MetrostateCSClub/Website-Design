@@ -1,3 +1,14 @@
 *{
   background-color: #2B6182;
+  color: #CC8B3B;
   }
+  
+#Btext{
+	display: table;
+	margin: auto;
+}
+
+#Btext{
+	display: table-cell;
+	vertical-align: middle;
+}
