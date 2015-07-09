@@ -1,14 +1,25 @@
-*{
+body{
   background-color: #2B6182;
-  color: #CC8B3B;
   }
-  
-#Btext{
-	display: table;
-	margin: auto;
+
+a{
+	border: 1px solid red ;
+	color: #fff;
+	margin: 50px;
+} 
+#Links{
+	text-align: center;
+	margin-top: 50px;
+}
+#bodyContent{
+	margin: 10px auto;
+	position: relative;
+	background-color: #fff;
+	border: 1px solid black;
+	height: 400px;
+	width: 500px;
+	color: #000;
+	text-align: center;
+	padding-top: 25px;
 }
 
-#Btext{
-	display: table-cell;
-	vertical-align: middle;
-}
