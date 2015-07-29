@@ -15,7 +15,7 @@ a{
 	height: 50px;
 	width: 500px;
 	margin: auto;
-	background-color: #fff;
+	background-color: #387DA8;
 	color: #000;
 	border: 1px solid black;
 }
@@ -37,7 +37,12 @@ a{
 	height: 400px;
 	width: 500px;
 	color: #000;
-	text-align: center;
 	padding-top: 25px;
+}
+p{
+	margin-right: 20px;
+	text-align: left;
+	padding-right: 10px;
+	padding-left: 30px;
 }
 
