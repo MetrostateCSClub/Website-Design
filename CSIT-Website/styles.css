@@ -1,11 +1,7 @@
 body{
   background-image: url('images/background.png');
   color: #fff;
-  }
-
-a{
-	margin: 0px;
-	} 
+ }
 
 #Header{
 	margin-bottom: 0px;
@@ -13,43 +9,45 @@ a{
 }	
 	
 #Header img{
+	border: 1px solid black;
 	height: 100px;
-	width: 500px;
+	width: 700px;
 	margin-top: 5px;
 	position: absolute;
-	left: 433px;
+	margin-bottom: 0px;
+	left: 333px;
 }
 
 #Logo img{
-	left: 418px;
+	left: 323px;
+	margin-top: 5px;
 	height: 100px;
 	width: 75px;
 	position: relative;
 }
 #Logo{
-	margin-bottom: 0px;
 	position: relative;
 }
 
 #Links{
 	background-color: black;
 	text-align: center;
-	width: 500px;
-	height: 50px;
-	margin: 0px auto;	
-	position: relative;
+	width: 698px;
+	height: 40px;
+	margin: 0px auto;
 	}
 
 #Links img{
-	margin-left: 20px;
-}
+	border: 1px solid black;
+	margin-left: 60px;
+	}
 
 #bodyContent{
 	margin: 0px auto;
 	background-color: #fff;
 	border: 1px solid black;
 	height: 400px;
-	width: 500px;
+	width: 700px;
 	color: #000;
 	padding-top: 25px;
 	position: relative;
