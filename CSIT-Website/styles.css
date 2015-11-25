@@ -3,31 +3,34 @@ body{
   color: #fff;
  }
 
-#Header{
-	margin-bottom: 0px;
+#logo{
 	text-align: center;
-}	
-	
-#Header img{
-	border: 1px solid black;
-	height: 100px;
-	width: 700px;
-	margin-top: 5px;
+}
+#logo img{
+	top: 40px;
+	left: 460px;
+	right: 500px;
+	height: 85px;
+	width: 120px;
 	position: absolute;
-	margin-bottom: 0px;
-	left: 333px;
 }
 
-#Logo img{
-	left: 323px;
-	margin-top: 5px;
-	height: 100px;
-	width: 75px;
-	position: relative;
+
+#banner{
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
 }
-#Logo{
+
+#banner img{
+	height: 150px;
+	width: 700px;
 	position: relative;
+	z-index: -1;
 }
+
+
+
 
 #Links{
 	background-color: black;
