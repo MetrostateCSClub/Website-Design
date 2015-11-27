@@ -6,6 +6,7 @@ body{
 #logo{
 	text-align: center;
 }
+
 #logo img{
 	top: 40px;
 	left: 460px;
@@ -19,31 +20,26 @@ body{
 #banner{
 	margin-left: auto;
 	margin-right: auto;
+	margin-bottom: 0px;
 	text-align: center;
 }
 
 #banner img{
-	height: 150px;
+	height: 160px;
 	width: 700px;
+	margin-bottom: 0px;
 	position: relative;
 	z-index: -1;
 }
-
-
 
 
 #Links{
 	background-color: black;
 	text-align: center;
 	width: 698px;
-	height: 40px;
+	height: 50px;
 	margin: 0px auto;
-	}
-
-#Links img{
-	border: 1px solid black;
-	margin-left: 60px;
-	}
+}
 
 #bodyContent{
 	margin: 0px auto;
@@ -58,7 +54,36 @@ body{
 p{
 	margin-right: 20px;
 	text-align: left;
-	padding-right: 10px;
+	padding-right: 400px;
 	padding-left: 30px;
 }
 
+/* 
+ * STILL TO REVISE:
+ *Change Fb Feed and calendar to be directly below each other
+ * instead of one to the right and one to the left
+ */
+ */
+#fbfeed{
+	color: gray;
+	border 2px solid black;
+	background-color: #555;
+	text-align: center;
+	width: 100px;
+	float: right;
+	height: 100px;
+	padding-left: 100px;
+	position: relative;
+}
+#calendar{
+	color: black;
+	border 2px solid black;
+	background-color: red;
+	text-align: center;
+	float: right;
+	width: 100px;
+	height: 100px;
+	margin-top: 200px;
+	padding-right: 100px;
+	position: relative;
+}
