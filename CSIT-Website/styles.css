@@ -16,22 +16,19 @@ body{
 	position: absolute;
 }
 
-
 #banner{
 	margin-left: auto;
 	margin-right: auto;
-	margin-bottom: 0px;
 	text-align: center;
+	line-height: 0px;	
 }
 
 #banner img{
 	height: 160px;
 	width: 700px;
-	margin-bottom: 0px;
 	position: relative;
 	z-index: -1;
 }
-
 
 #Links{
 	background-color: black;
@@ -65,15 +62,15 @@ p{
  */
  */
 #fbfeed{
-	color: gray;
+	color: red;
 	border 2px solid black;
-	background-color: #555;
+	background-color: gray;
 	text-align: center;
 	width: 100px;
 	float: right;
 	height: 100px;
 	padding-left: 100px;
-	position: relative;
+	position: absolute;
 }
 #calendar{
 	color: black;
