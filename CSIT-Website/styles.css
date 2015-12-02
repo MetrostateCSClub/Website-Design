@@ -57,30 +57,26 @@ p{
 
 /* 
  * STILL TO REVISE:
- *Change Fb Feed and calendar to be directly below each other
- * instead of one to the right and one to the left
+ *Change links to add change background color after hover
+ * Pad links to separate the width
+ * Copy the CSS <Head> tag to all webpages
  */
- */
+ 
 #fbfeed{
-	color: red;
-	border 2px solid black;
-	background-color: gray;
-	text-align: center;
-	width: 100px;
+	display: block;
+	padding: 50px;
+	width: 55px;
+	margin: 20px 70px 30px 0px;
+	text-align: justify;
+	background-color: blue;
 	float: right;
-	height: 100px;
-	padding-left: 100px;
-	position: absolute;
 }
 #calendar{
-	color: black;
-	border 2px solid black;
+	clear: both;
+	display: block;
+	padding: 50px;
+	margin: 20px 70px 30px 0px;
+	text-align: justify;
 	background-color: red;
-	text-align: center;
 	float: right;
-	width: 100px;
-	height: 100px;
-	margin-top: 200px;
-	padding-right: 100px;
-	position: relative;
 }
