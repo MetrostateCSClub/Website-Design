@@ -32,10 +32,14 @@ body{
 
 #Links{
 	background-color: black;
-	text-align: center;
-	width: 698px;
+	color: white;
+	width: 700px;
 	height: 50px;
 	margin: 0px auto;
+	text-align: left;
+	word-spacing: 10px;
+	line-height: 3em;
+	
 }
 
 #bodyContent{
@@ -57,9 +61,8 @@ p{
 
 /* 
  * STILL TO REVISE:
- *Change links to add change background color after hover
- * Pad links to separate the width
- * Copy the CSS <Head> tag to all webpages
+ * -Revise Links so the background color changes when mouse hovers over them
+ * -Increase the size of all non-background related content.(Too much background spacing)
  */
  
 #fbfeed{
